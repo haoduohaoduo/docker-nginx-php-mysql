@@ -221,7 +221,7 @@ ___
 
     * [http://localhost:8000](http://localhost:8000/)
     * [https://localhost:3000](https://localhost:3000/) ([HTTPS](#configure-nginx-with-ssl-certificates) not configured by default)
-    * [http://localhost:8080](http://localhost:8080/) PHPMyAdmin (username: dev, password: dev)
+    * [http://localhost:8080](http://localhost:8080/) PHPMyAdmin (username: dev, password: dev) 管理员账户是 root root
 
 4. Stop and clear services
 
