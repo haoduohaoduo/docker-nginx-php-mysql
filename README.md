@@ -202,6 +202,8 @@ ___
     ```sh
     cp web/app/composer.json.dist web/app/composer.json
     ```
+    
+    上面这一步可以通过系统中的文件复制和改名来完成。
 
 2. Start the application :
 
