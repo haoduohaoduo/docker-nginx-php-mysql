@@ -102,6 +102,8 @@ To install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git), 
 git clone https://github.com/nanoninja/docker-nginx-php-mysql.git
 ```
 
+这一句，可以通过下载 ZIP 包的方式来完成，但是注意**请把 ZIP 包放到一个没有中文，而且很容易找到的文件夹里**
+
 Go to the project directory :
 
 ```sh
@@ -142,7 +144,7 @@ cd docker-nginx-php-mysql
 
 ___
 
-## Configure Nginx With SSL Certificates
+## Configure Nginx With SSL Certificates 可以跳过
 
 You can change the host name by editing the `.env` file.
 
@@ -172,7 +174,7 @@ If you modify the host name, do not forget to add it to the `/etc/hosts` file.
 
 ___
 
-## Configure Xdebug
+## Configure Xdebug 可以跳过
 
 If you use another IDE than [PHPStorm](https://www.jetbrains.com/phpstorm/) or [Netbeans](https://netbeans.org/), go to the [remote debugging](https://xdebug.org/docs/remote) section of Xdebug documentation.
 
@@ -193,7 +195,7 @@ For a better integration of Docker to PHPStorm, use the [documentation](https://
     ```
 ___
 
-## Run the application
+## Run the application 可以直接到这一步
 
 1. Copying the composer configuration file : 
 
